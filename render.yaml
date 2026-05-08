@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: weekly-study-tracker
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
