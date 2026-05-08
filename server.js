@@ -1,4 +1,4 @@
-
+const http = require('http');
 function buildWeekSummary(weekId, entries) {
   const scores = people.map((person) => ({
     id: person.id,
