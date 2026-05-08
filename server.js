@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 
 const port = Number(process.env.PORT || 4174);
-const host = process.env.HOST || "127.0.0.1";
+const host = "0.0.0.0";
 const root = __dirname;
 const storePath = path.join(root, "tracker-store.json");
 const clients = new Set();
